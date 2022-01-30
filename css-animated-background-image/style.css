@@ -1,0 +1,54 @@
+html,
+body {
+	height: 100%;
+	margin: 0px;
+	background: #000;
+}
+
+.background-wrapper {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.animated-background {
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	background: url("virtual-real.jpg");
+	background-position: center, center;
+	background-size: cover;
+	transform: scale(1); /*initially at 100%*/
+	animation: fade 5s 0.5s, zoom 60s linear 1s;
+	animation-fill-mode: forwards; /*keep end frame of animation*/
+}
+
+@keyframes fade {
+	rom {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes zoom {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.5);
+	}
+}
+
+article {
+	font-family: sans-serif;
+	font-size: 10px;
+	line-height: 1.6;
+	color: white;
+	position: absolute;
+	z-index: 1;
+	max-width: 400px;
+	right: 3vw;
+	display: flex;
+	gap: 20px;
+}

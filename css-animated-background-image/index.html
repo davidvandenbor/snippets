@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS animated background image</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <article>
+    <p>For some weird reason unbeknowest to me, CSS animations don't work when you try to animate CSS background images declared on the BODY element. So, in order for the animation to work, we'll move the CSS background image to a separate HTML element, like a SECTION or a DIV.</p>
+
+    <p>The reason for the .background-wrapper container is to prevent scrollbars from appearing when the background animates (overflow:hidden)</p>
+
+  </article>
+  <div class="background-wrapper">
+    <div class="animated-background"></div>
+  </div>
+  <!-- partial -->
+
+</body>
+
+</html>
