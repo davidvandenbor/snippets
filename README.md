@@ -1,5 +1,3 @@
-# Scalable CSS grids and columns without media queries
+# Snippets Library
 
-Play live with this code in **CodeSandBox** > [click here!](https://codesandbox.io/s/github/davidvandenbor/scalable-css-grids-and-columns-without-media-queries)
-
-Example of how to scale a layout from mobile to desktop (and larger) by using CSS grid and CSS columns in a clever way without the need to define media queries for the amount of columns to use while scaling up or down!
+Here's where I'll post my snippets library with initial handy fragments of code examples. If a snippet "graduates" in importance, I'll migrate it to my Playgrounds repo, where snippets get their own sandbox to better play with or preview the code.
